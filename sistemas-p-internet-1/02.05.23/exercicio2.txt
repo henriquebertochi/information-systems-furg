@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h6>HTML - Linguagem de marcação</h6>
+<p>
+Para mais informações sobre HTML, visite o site:
+<a href="http://pt.wikipedia.org/wiki/HTML">HTML Wikipédia</a>
+</p>
+<br>
+<a href="www.furg.br" target="_black"
+title="Página da FURG"> FURG</a>
+</body>
+</html>

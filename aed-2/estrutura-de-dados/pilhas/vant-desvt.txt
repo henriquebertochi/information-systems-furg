@@ -1,0 +1,1 @@
+Sempre para remover, adicionar, algum elemento do topo, será apenas 1 ação constante, se tornando ambas rápidas, tanto na contigua e na encadeada.

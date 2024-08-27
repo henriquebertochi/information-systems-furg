@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex02 Form</title>
+    <link rel="stylesheet" href="Ex02-Form.css">
+</head>
+<body>
+    <form name="input" action="submetido.html" target="_blank" method="get">
+    <table align="center" class="tabela" background="https://png.pngtree.com/thumb_back/fh260/background/20190831/pngtree-pastel-colorful-background-clouds-image_312444.jpg">
+        <tr>
+            <th colspan="6">Preencha seus dados corretamente</th>
+        </tr>
+        <tr>
+            <td>Nome:</td>
+            <td colspan="1"><input class="cinza" type="text" name="nome" size="12"></td>
+            <td>Idade:</td>
+            <td><input class="cinza" type="text" name="idade" size="7"></td>
+            <td>Senha:</td>
+            <td><input class="cinza" type="password" name="senha" size="12"></td>
+        </tr>
+        <tr>
+            <td>Esportes que pratica:</td>
+            <td><input class="cinza" type="checkbox" name="esportes" value="volei">Volei &nbsp; &nbsp;</td>
+            <td><input class="cinza" type="checkbox" name="esportes" value="futebol">Futebol &nbsp; &nbsp;</td>
+            <td><input class="cinza" type="checkbox" name="esportes" value="handebol">Handebol &nbsp; &nbsp;</td>
+            <td>Outro:</td>
+            <td><input class="cinza" type="text" name="outro" size="10"></td>
+        </tr>
+        <tr>
+            <td>Gosta de doces?</td>
+            <td><input class="cinza" type="radio" name="doces" value="sim">Sim</td>
+            <td><input class="cinza" type="radio" name="doces" value="nao">Não</td>
+        </tr>
+        <tr>
+            <td colspan="2">Selecione <b>duas</b> opções de comida</td>
+            <td><select name="comidas" size="1" class="cinza">
+                    <option value="lasanha" selected="selected">Lasanha</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="churrasco">Churrasco</option>
+                    <option value="arrozfeijao">Arroz e Feijão</option>
+                    <option value="frangofrito">Frango Frito</option>
+                </td>
+                </tr>
+                <tr>
+                    <td rowpan="3" colspan="6" align="center"><textarea class="cinza" name="cv" rows="3" cols="80">Conte uma história sobre comida</textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input class="cinza" type="submit" value="Enviar"></td>
+                    <td colspan="4" align="center"><input class="cinza" type="reset" value="Limpar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>

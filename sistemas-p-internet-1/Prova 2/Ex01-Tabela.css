@@ -1,0 +1,55 @@
+td.azul {
+    background-color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td.rosa {
+    background-color: rgb(141, 22, 141);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td.verde {
+    background-color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td.amarelo {
+    background-color: yellow;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td.preto {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+td.laranja {
+    background-color: orange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td.vermelho {
+    background-color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td.branco {
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.t1 {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}

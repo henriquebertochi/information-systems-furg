@@ -1,0 +1,28 @@
+th.th1 {
+    border: thin solid gray;
+    padding: 5px;
+    background-color: rgb(60, 12, 114);
+    color: white;
+}
+
+td.td1 {
+    border: thin solid gray;
+    padding: 5px;
+}
+
+td.cent {
+    border: thin solid gray;
+    text-align: center;
+    padding: 5px;
+}
+
+tr.int {
+    background-color: rgb(172, 143, 199);
+}
+
+table.t1 {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}

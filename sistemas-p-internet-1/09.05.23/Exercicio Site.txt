@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>Sistemas para Internet I</title>
+</head>
+<h1>Bom Dia!</h1>
+<center><h2><sup>a</sup>Aulas de Sistemas I</h2></center>
+<p><sup>a</sup>para o curso de sistemas de informação</p>
+<img src=" https://faculdadedombosco.net/media/filer_public/2020_7/42f1c949_logo_sistemas-icone.png"
+alt=“Símbolo Curso”>
+<a href=" http://www.c3.furg.br" target="_black"
+title="Link SI C3" >SI C3</a>
+<p>Espero me formar em <strong>2027</strong>

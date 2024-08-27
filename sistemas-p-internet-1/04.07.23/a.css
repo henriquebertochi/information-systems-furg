@@ -1,0 +1,11 @@
+td.par {
+    background-color: rgb(93, 151, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+td.imp {
+    background-color: rgb(104, 167, 95);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Complexo</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+
+<body>
+    <form name="input" action="bsubmetido.html" target="_blank" method="get">
+        <table border="1" class="amr">
+            <caption>Inscrições Semana Acadêmica</caption>
+            <tr>
+                <td>Nome:</td>
+                <td colspan="2"><input type="text" name="nome" size="15"></td>
+                <td>Matrícula</td>
+                <td><input type="text" name="nome" size="5"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">Curso</td>
+                <td colspan="2"><input type="radio" name="tipo" value="EC">EC</td>
+                <td>Semestre</td>
+                <td><select name="semestre">
+                        <option value="1" selected="selected">1 Sem</option>
+                        <option value="2">2 Sem</option>
+                        <option value="3">3 Sem</option>
+                        <option value="4">4 Sem</option>
+                        <option value="4">5 Sem</option>
+                        <option value="4">6 Sem</option>
+                        <option value="4">7 Sem</option>
+                        <option value="4">8 Sem</option>
+                        <option value="4">9 Sem</option>
+                        <option value="4">10 Sem</option>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="radio" name="tipo" value="EA">EA</td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="radio" name="tipo" value="SI">SI</td>
+            </tr>
+            <tr>
+                <td colspan="1">Minicurso</td>
+                <td><input type="checkbox" name="minicurso" value="mc1">MC1</td>
+                <td><input type="checkbox" name="minicurso" value="mc2">MC2</td>
+                <td><input type="checkbox" name="minicurso" value="mc3">MC3</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">Vai participar do HackThon?</td>
+                <td colspan="4"><input type="radio" name="tipo" value="sim">Sim</td></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="radio" name="tipo" value="nao">Não</td></td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">Forma de pagamento:</td>
+                <td colspan="4"><input type="radio" name="tipo2" value="sim">Transferência</td></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="radio" name="tipo2" value="nao">Pix</td></td>
+            </tr>
+            <tr>
+                <td colspan="5"><textarea name="cv" rows="3" cols="50" class="ver">Indique o que mais te atraiu para participar da semana acadêmica:</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Enviar" class="enviar"></td>
+                <td colspan="3" align="center"><input type="reset" value="Limpar" class="enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

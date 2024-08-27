@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>Camadas de Protocolo</title>
+</head>
+<h1>Camadas de Protocolo</h1>
+<p>
+Para promover uma <big>estrutura</big>, oferecem <small>serviços</small> <i>executando ações</i> <sup>dentro</sup> <code>da camada</code> utilizando serviços da <sub>camada a baixo</sub>
+</p>
+<p>
+Implementadas em <pre>Harware e Software</pre></h4>
+</p>
+<hr />
+<h4>Pilha de Protocolos Internet:</h4>
+<ul>
+<Li>Aplicação <b>SW</b></li>
+<li>Transporte <b>SW</b></li>
+<li>Rede <b>SW+HW</b></li>
+<li>Enlace <b>HW</b></li>
+<li>Físico <b>HW</b></li>
+</ul>
+<hr />
+<h4>Camada de Aplicação: <i>PACOTES</i></h4>
+<ol type="A">
+<li>HTTP</li>
+<li>SMTP</li>
+<li>FTP</li>
+<li>DNS</li>
+</Ol>
+<hr />
+<p>Para saber mais:
+<a href=" https://ava.furg.br/pluginfile.php/618962/mod_resource/content/1/Aula04-2023.pdf" target="_black"
+title="Página da aula" >AULA</a>
+</p>
+<img src=" https://i.ytimg.com/vi/1rxLX9fyUhg/maxresdefault.jpg"
+alt=“Logo C3”>
+<meta charset="UTF-8">
+<meta name="Descrição" content="Aula de Camadas de Protocolo">
+<meta name="Palavra chave" content="PROTOCOLO, INTERNET, HTML, SMTP">
+<meta name="Autor" content="Henrique B. Grigol">
+<meta http-equiv="refresh" content="30">
+</body>
+</html>

@@ -1,0 +1,13 @@
+.cinza {
+    background-color: lightgray
+}
+
+.tabela {
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 0px;
+}
+
+input[type="checkbox"],input[type="radio"] {
+    background-color: lightgray;
+}
