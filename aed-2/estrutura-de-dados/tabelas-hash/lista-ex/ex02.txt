@@ -1,0 +1,67 @@
+2-Quantos acessos na tabela resultante do exercício anterior são necessários para buscar por cada uma das seguintes chaves (59, 12, 99, 158, 567, 30, 109)?
+
+Para determinar quantos acessos são necessários para buscar por cada chave, devemos considerar o processo de busca linear que ocorre em caso de colisão ou ausência do elemento na tabela hash.
+
+Chave 59:
+Função de dispersão: 59 % 11 = 4
+Índice calculado: 4 + 1 = 5
+No índice 5, encontramos a chave 15 (Carlos), então fazemos uma sondagem linear.
+No índice 6, encontramos a chave 37 (Ronaldo), continuamos a sondagem.
+No índice 7, finalmente encontramos a chave 59 (Darci).
+Total de acessos: 3
+
+Chave 12:
+Função de dispersão: 12 % 11 = 1
+Índice calculado: 1 + 1 = 2
+No índice 2, encontramos a chave 99 (Denise), então a chave 12 não está presente na tabela.
+Total de acessos: 1
+
+Chave 99:
+Função de dispersão: 99 % 11 = 0
+Índice calculado: 0 + 1 = 1
+No índice 1, encontramos a chave 44 (Marcia), então fazemos uma sondagem linear.
+No índice 2, encontramos a chave 99 (Denise).
+Total de acessos: 2
+
+Chave 158:
+Função de dispersão: 158 % 11 = 4
+Índice calculado: 4 + 1 = 5
+No índice 5, encontramos a chave 15 (Carlos), continuamos a sondagem.
+No índice 6, encontramos a chave 37 (Ronaldo), continuamos a sondagem.
+No índice 7, encontramos a chave 59 (Darci), continuamos a sondagem.
+No índice 8, encontramos a chave 73 (João), continuamos a sondagem.
+No índice 9, encontramos a chave 30 (Michel), continuamos a sondagem.
+No índice 10, encontramos a chave 61 (Joana).
+A chave 158 não está presente.
+Total de acessos: 6
+
+Chave 567:
+Função de dispersão: 567 % 11 = 6
+Índice calculado: 6 + 1 = 7
+No índice 7, encontramos a chave 59 (Darci), continuamos a sondagem.
+No índice 8, encontramos a chave 73 (João), continuamos a sondagem.
+No índice 9, encontramos a chave 30 (Michel), continuamos a sondagem.
+No índice 10, encontramos a chave 61 (Joana).
+A chave 567 não está presente.
+Total de acessos: 4
+
+Chave 30:
+Função de dispersão: 30 % 11 = 8
+Índice calculado: 8 + 1 = 9
+No índice 9, encontramos a chave 30 (Michel).
+Total de acessos: 1
+
+Chave 109:
+Função de dispersão: 109 % 11 = 10
+Índice calculado: 10 + 1 = 11, que retorna para o índice 0 (devido à circularidade).
+No índice 0, está vazio, então a chave 109 não está presente.
+Total de acessos: 1
+
+Resumo dos acessos:
+Chave 59: 3 acessos
+Chave 12: 1 acesso
+Chave 99: 2 acessos
+Chave 158: 6 acessos
+Chave 567: 4 acessos
+Chave 30: 1 acesso
+Chave 109: 1 acesso
